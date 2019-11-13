@@ -918,7 +918,6 @@ li {
 		border-radius: 100%;
 		z-index: 10000;
 		top: 30px;
-		display: none;
 	}
 
 	.header-nav__list {
