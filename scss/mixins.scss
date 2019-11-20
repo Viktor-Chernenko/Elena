@@ -226,7 +226,7 @@
 @mixin link-social {
     border: 1px solid transparent;
     border-radius: 100%;
-    transition: border $time-transition linear, background $time-transition linear;
+    transition: border $time-transition linear;
 
     &:hover {
         border: 1px solid $border-link-social-hover;
