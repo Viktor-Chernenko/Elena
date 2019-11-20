@@ -1,0 +1,236 @@
+@mixin body-basis {
+    max-width: 590px;
+    margin: 0 auto;
+    font-family: $PT-Sans;
+}
+
+//=== font ===
+
+@mixin title-content-18px {
+    font-size: $title-size-basic-18px;
+    font-weight: 700;
+    color: $title-color-gray;
+    text-transform: uppercase;
+}
+
+@mixin title-content-16px {
+    font-size: $title-size-basic-16px;
+    font-weight: 700;
+    color: $title-color-gray;
+    text-transform: uppercase;
+}
+
+@mixin text-content {
+    font-size: $text-size-basis;
+    font-weight: 400;
+    color: $text-color-gray;
+}
+
+//=== / font ===
+
+// === btn ===
+
+@mixin btn-header() {
+    padding: 13px 45px;
+    font-size: $btn-font-size-basis+1;
+    font-weight: 700;
+    color: $btn-color;
+    text-decoration: none;
+    background: $btn-bg-green;
+    border: 1px solid $btn-bg-green;
+    border-radius: 30px;
+    transition: color $time-transition linear, background $time-transition linear;
+
+    &:hover {
+        color: $btn-color-green-hover;
+        background: $btn-bg-green-hover;
+    }
+}
+
+@mixin btn-green() {
+    padding: 7px 17px;
+    font-size: $btn-font-size-basis;
+    color: $btn-color;
+    text-decoration: none;
+    background: $btn-bg-green;
+    border: 1px solid $btn-bg-green;
+    border-radius: 30px;
+    transition: color $time-transition linear, background $time-transition linear;
+
+    &:hover {
+        color: $btn-color-green-hover;
+        background: $btn-bg-green-hover;
+    }
+}
+
+@mixin btn-gray() {
+    padding: 8px 18px;
+    font-size: $btn-font-size-basis;
+    color: $btn-color;
+    text-decoration: none;
+    background: $btn-bg-gray;
+    border-radius: 30px;
+    transition: color $time-transition linear, background $time-transition linear;
+
+    &:hover {
+        color: $btn-color-gray-hover;
+        background: $btn-bg-gray-hover;
+    }
+}
+
+// ===/ btn ===
+
+// === lines ===
+
+@mixin line-hover {
+    position: relative;
+
+    &::before {
+        position: absolute;
+        right: 0;
+        bottom: -3px;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        content: " ";
+        background: $line-hover-color;
+        opacity: 0;
+        transition: opacity $time-transition linear;
+    }
+
+    &:hover::before {
+        opacity: 1;
+    }
+}
+
+@mixin line-header {
+    position: relative;
+
+    &::after {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 21%;
+        height: 2px;
+        margin-bottom: -2px;
+        content: "";
+        background: #fff;
+        opacity: .24;
+    }
+
+    &::before {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        width: 21%;
+        height: 2px;
+        margin-bottom: -2px;
+        content: "";
+        background: #fff;
+        opacity: .24;
+    }
+}
+
+@mixin line-base($width-line-base, $bottom-line-base, $gb-line-base) {
+    position: relative;
+
+    &::before {
+        position: absolute;
+        right: 0;
+        bottom: $bottom-line-base;
+        left: 0;
+        width: $width-line-base;
+        height: 2px;
+        margin: 0 auto;
+        content: "";
+        background: $gb-line-base;
+    }
+}
+
+// ===/ lines ===
+
+//=== icon ===
+
+@mixin icon-title() {
+    &::after {
+        position: absolute;
+        left: 0;
+        width: 30px;
+        height: 30px;
+        content: " ";
+        background: url(../img/icon-title.svg) no-repeat;
+    }
+}
+
+//=== / icon ===
+
+//=== link ===
+
+@mixin link-info-template-2 {
+    position: relative;
+    font-size: 14px;
+    color: $link-info-template-2-color;
+    text-decoration: none;
+    transition: color $time-transition linear;
+
+    &::before {
+        position: absolute;
+        right: 0;
+        bottom: -3px;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        content: " ";
+        background: $link-info-template-2-color-hover;
+        opacity: 0;
+        transition: opacity $time-transition linear;
+    }
+
+    &:hover::before {
+        opacity: 1;
+    }
+
+    &:hover {
+        color: $link-info-template-2-color-hover;
+    }
+}
+
+@mixin link-footer {
+    position: relative;
+    color: $text-color-gray;
+    text-decoration: none;
+    transition: color $time-transition linear;
+
+    &::before {
+        position: absolute;
+        right: 0;
+        bottom: -3px;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        content: " ";
+        background: $link-info-template-2-color-hover;
+        opacity: 0;
+        transition: opacity $time-transition linear;
+    }
+
+    &:hover::before {
+        opacity: 1;
+    }
+
+    &:hover {
+        color: $link-info-template-2-color-hover;
+    }
+}
+
+@mixin link-social {
+    border: 1px solid transparent;
+    border-radius: 100%;
+    transition: border $time-transition linear, background $time-transition linear;
+
+    &:hover {
+        border: 1px solid $border-link-social-hover;
+    }
+}
+
+//=== / link ===

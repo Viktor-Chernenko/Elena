@@ -1,0 +1,36 @@
+{
+  "name": "game.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Viktor-Chernenko/game.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Viktor-Chernenko/game.github.io/issues"
+  },
+  "homepage": "https://github.com/Viktor-Chernenko/game.github.io#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-stylelint": "^10.0.0",
+    "stylelint": "^12.0.0"
+  },
+  "dependencies": {
+    "gulp-autoprefixer": "^7.0.1",
+    "stylelint-config-recess-order": "^2.0.3",
+    "stylelint-config-standard": "^19.0.0"
+  },
+  "browserslist": [
+    "last 25 version",
+    "> 1%",
+    "IE 10"
+  ]
+}
