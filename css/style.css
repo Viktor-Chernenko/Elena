@@ -838,9 +838,9 @@ template {
       border: 1px solid transparent;
       -webkit-border-radius: 100%;
               border-radius: 100%;
-      -webkit-transition: border 0.3s linear, background 0.3s linear;
-      -o-transition: border 0.3s linear, background 0.3s linear;
-      transition: border 0.3s linear, background 0.3s linear;
+      -webkit-transition: border 0.3s linear;
+      -o-transition: border 0.3s linear;
+      transition: border 0.3s linear;
       display: block;
       width: 22px;
       height: 22px; }
