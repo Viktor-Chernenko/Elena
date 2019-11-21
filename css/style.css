@@ -789,7 +789,6 @@ template {
         -ms-flex-pack: justify;
             justify-content: space-between; }
     .footer .footer-box__info {
-      padding-right: 30px;
       font-size: 13px;
       color: #787b80; }
       .footer .footer-box__info span {
