@@ -1,0 +1,1 @@
+$(function(){$(".scroll-top").click(function(){return $("html, body").animate({scrollTop:.2},600),!1})}),$(document).ready(function(){var e=$(".header-nav-mobile");e.click(function(){return e.toggleClass("active"),$(".header-nav").toggleClass("active"),!1})});
