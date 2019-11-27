@@ -1,0 +1,145 @@
+// === font-size ===
+
+//tittle
+
+$title-size-basic-18px: 18px;
+$title-size-basic-16px: 16px;
+
+//text
+
+$text-size-basis: 14px;
+
+//btn
+
+$btn-font-size-basis: 14px;
+
+// === / font-size ===
+
+// === color ====
+
+//icon
+
+$color-icon: #50c3af;
+
+$color-social-icon: #787b80;
+$color-social-icon-hover: #50c3af;
+
+//tittle
+
+$title-color-withe: #fff;
+$title-color-gray: #384048;
+
+//text
+
+$text-color-withe: #fff;
+$text-color-gray: #787b80;
+$link-info-template-2-color: #50c3af;
+$text-color-less-gray: #aaacaf;
+
+// link
+
+$link-info-template-2-color: #50c3af;
+$link-info-template-2-color-hover: #278776;
+
+$fill-icon-title: #c6cbd1;
+
+$fill-link-social: #bcbcbe;
+$fill-link-social-hover: #50c3af;
+$bg-link-social-hover: #fff;
+
+$border-link-social: #bcbcbe;
+
+// prove
+
+$color-prove: #fff;
+
+//btn
+
+$btn-color: #f5f5f5;
+
+//gray hover
+$btn-color-gray-hover: #fff;
+
+//green hover
+$btn-color-green-hover: #50c3af;
+
+// === / color ====
+
+//=== font-family ===
+
+$Dancing-Script: 'Dancing Script',cursive;
+$Open-Sans: 'Open Sans',sans-serif;
+$PT-Sans: 'PT Sans',sans-serif;
+$Ubuntu: 'Ubuntu',sans-serif;
+
+//=== / font-family ===
+
+// === background ===
+
+$bg-1: #f5f5f5;
+$bg-2: #eeeeef;
+$bg-prove: #50c3af;
+
+//btn
+
+$btn-bg-green: #50c3af;
+$btn-bg-green-hover: #fff;
+
+$btn-bg-gray: #d2d5da;
+$btn-bg-gray-hover: #848484;
+
+//line hover
+
+$line-hover-color: #fff;
+
+// === / background ===
+
+// === speed transition ===
+
+$time-transition: .3s;
+
+// === / speed transition ===
+
+// === / nav mobile ===
+
+$color-nav-mobile: #50c3af;
+
+$height-icon-nav-mobile: 25px;
+$width-line-nav-mobile: 50px;
+$height-line-nav-mobile: 8px;
+
+$width-icon-title: 20px;
+$height-icon-title: 20px;
+
+$transition-time-nav-mobile: 0.4s;
+$rotation-nav-mobile: 45deg;
+$translateY-nav-mobile: ($height-icon-nav-mobile / 2);
+$translateX-nav-mobile: 0;
+
+// === / nav mobile ===
+
+// === scroll-top ===
+
+$scroll-top-position: fixed;
+$scroll-top-right: 20px;
+$scroll-top-bottom: 80px;
+
+$scroll-top-width: 50px;
+$scroll-top-height: 50px;
+
+$scroll-top-bg: #50c3af;
+
+$scroll-top-bg-hover: #fff;
+
+$scroll-top-fill: #fff;
+$scroll-top-fill-hover: #50c3af;
+
+// === / scroll-top ===
+
+// === z-index ===
+
+$z-index-header-body: 1;
+
+$z-index-menu-mobile: 100;
+
+// === / z-index ===
